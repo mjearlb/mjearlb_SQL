@@ -1,0 +1,18 @@
+CREATE DATABASE DemoDB DEFAULT CHARACTER SET utf8; 
+
+USE DemoDB; 
+
+CREATE TABLE Employee(
+EmpID	INT, 
+FirstName VARCHAR(50), 
+LastName VARCHAR(50),
+Salary	NUMERIC(10,2)
+);
+
+INSERT INTO Employee
+VALUES(1,'A','A',1000);
+
+INSERT INTO Employee
+VALUES(2,'B','B',2000);
+
+SELECT * FROM Employee;
