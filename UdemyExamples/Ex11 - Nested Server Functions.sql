@@ -27,4 +27,4 @@ select left(right('this is a slightly longer string', 8), 4)
 
 select left(FirstName, charindex('e', FirstName))
 from Person.Person
-where charindex('e', FirstName) <> 0 -- could do = 4 to only return those whihc have four letters including the 'e'
+where charindex('e', FirstName) <> 0 -- could do = 4 to only return those which have four letters including the 'e'
